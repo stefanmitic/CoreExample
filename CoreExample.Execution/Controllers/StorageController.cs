@@ -1,5 +1,5 @@
 ﻿using CoreExample.Common.Interfaces.Controllers;
-using CoreExample.Common.Interfaces.Helpers;
+using CoreExample.Common.Interfaces.Controllers.Helpers;
 using CoreExample.Common.Models;
 using Microsoft.AspNetCore.Mvc;
 using NLog;

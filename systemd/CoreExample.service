@@ -1,0 +1,12 @@
+[Unit]
+Description=CoreExample Service
+After=syslog.target network.target network-online.target
+ 
+[Service]
+Type=simple
+ 
+ExecStart=/usr/bin/dotnet /locatio/of/CoreExample.dll
+Restart=always
+ 
+[Install]
+WantedBy=multi-user.target
