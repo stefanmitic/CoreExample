@@ -1,7 +1,6 @@
-﻿using CoreExample.Common.Interfaces.Helpers;
+﻿using CoreExample.Common.Interfaces.Controllers.Helpers;
 using CoreExample.Common.Models;
 using NLog;
-using System;
 using System.IO;
 
 namespace CoreExample.Windows.Helpers
